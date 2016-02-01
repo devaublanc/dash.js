@@ -11,7 +11,7 @@ module.exports = function(grunt) {
     },
     watch: {},
     jshint: {
-      all: ["../src/dash/**/*.js", 
+      all: ["../src/dash/**/*.js",
 			"../src/streaming/**/*.js"],
       options: {
         jshintrc: ".jshintrc"
@@ -75,7 +75,7 @@ module.exports = function(grunt) {
       }
     },
     jasmine: {
-      tests: {        
+      tests: {
         src: [
             "../src/streaming/MediaPlayer.js",
             "../src/streaming/Context.js",
@@ -86,7 +86,7 @@ module.exports = function(grunt) {
 			"../src/lib/**/*.js"
         ],
         options: {
-          host: 'http://127.0.0.1:8000',		  
+          host: 'http://127.0.0.1:8000',
           keepRunner: true,
           helpers: [
             "./test/js/utils/Helpers.js",
@@ -109,7 +109,7 @@ module.exports = function(grunt) {
             ".grunt/src/lib/objectiron.js",
             ".grunt/src/lib/Math.js",
             ".grunt/src/lib/long.js",
-            ".grunt/src/lib/dijon.js",	
+            ".grunt/src/lib/dijon.js",
             ".grunt/src/lib/base64.js",
 			".grunt/src/lib/iso_boxer.min.js"
           ],
@@ -139,11 +139,11 @@ module.exports = function(grunt) {
   // Require needed grunt-modules
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-jasmine');
+  // grunt.loadNpmTasks('grunt-contrib-jasmine');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-jsdoc');
+  // grunt.loadNpmTasks('grunt-jsdoc');
 
   // Define tasks
-  grunt.registerTask('default', ['jshint','connect:default_options','jasmine','uglify', 'jsdoc']);
+  grunt.registerTask('default', ['jshint','connect:default_options','uglify']);
 };

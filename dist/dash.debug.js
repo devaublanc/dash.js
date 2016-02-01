@@ -2737,6 +2737,9 @@ Dash.dependencies.DashHandler = function() {
                 }
             }
         }
+        if (idx === -1 && time === 0 && !isDynamic) {
+            idx = 0;
+        }
         return idx;
     }, getSegmentByIndex = function(index, representation) {
         if (!representation || !representation.segments) return null;

@@ -215,8 +215,8 @@ Dash.dependencies.DashHandler = function () {
             duration = representation.segmentDuration;
 
             /*
-             * From spec - If neither @duration attribute nor SegmentTimeline element is present, then the Representation 
-             * shall contain exactly one Media Segment. The MPD start time is 0 and the MPD duration is obtained 
+             * From spec - If neither @duration attribute nor SegmentTimeline element is present, then the Representation
+             * shall contain exactly one Media Segment. The MPD start time is 0 and the MPD duration is obtained
              * in the same way as for the last Media Segment in the Representation.
              */
             if (isNaN(duration)) {
@@ -715,9 +715,9 @@ Dash.dependencies.DashHandler = function () {
 
             // TODO : This is horrible.
             // Temp fix for SegmentTimeline refreshes.
-            //if (idx === -1) {
-            //    idx = 0;
-            //}
+            if (idx === -1 && time === 0 && !isDynamic) {
+                idx = 0;
+            }
 
             /*
             if (segments && segments.length > 0) {
