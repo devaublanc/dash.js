@@ -1,6 +1,72 @@
 {
     "items":[
         {
+            "name":"MOLOTOV",
+            "submenu":[
+                {
+                    "url":"http://fr-dc3-prod-sfaure-01.access.molotov.net/public/seb/seb.isml/seb.mpd",
+                    "name":"Flux debug",
+                    "browsers":"cdsbi"
+                },
+                {
+                    "name": "LIVE",
+                    "url": "https://cdn3-live-mlflux-net.akamaized.net/public/france2/france2.isml/france2.mpd",
+                    "browsers": "",
+                    "protData": {
+                        "com.widevine.alpha": {
+                            "drmtoday": true,
+                            "serverURL": "https://lic.drmtoday.com/license-proxy-widevine/cenc/",
+                            "httpRequestHeaders": {
+                                "x-dt-auth-token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE0NTc2OTE3NTksImp0aSI6IjU2ZTI5YzZmNzE4YzYiLCJjcnQiOiJbe1wiYXNzZXRJZFwiOlwiZnJhbmNlMlwiLFwic3RvcmVMaWNlbnNlXCI6ZmFsc2UsXCJwcm9maWxlXCI6e1wicmVudGFsXCI6e1wiYWJzb2x1dGVFeHBpcmF0aW9uXCI6XCIyMDE2LTAzLTExVDE0OjIyOjM5KzAwOjAwXCIsXCJwbGF5RHVyYXRpb25cIjoxNDQwMDAwMH19LFwibWVzc2FnZVwiOlwiTGljZW5zZSBncmFudGVkXCIsXCJvdXRwdXRQcm90ZWN0aW9uXCI6e1wiZGlnaXRhbFwiOnRydWUsXCJhbmFsb2d1ZVwiOnRydWUsXCJlbmZvcmNlXCI6ZmFsc2V9fV0iLCJvcHREYXRhIjoie1widXNlcklkXCI6XCI4ZjNhYjAwNWEzN2Y0N2U5MDNhYWJmYTFjOWFlMTRlNDdkZTQxM2I3XCIsXCJzZXNzaW9uSWRcIjpcIjhmM2FiMDA1YTM3ZjQ3ZTkwM2FhYmZhMWM5YWUxNGU0N2RlNDEzYjctZDQxZDhjZDk4ZjAwYjIwNGU5ODAwOTk4ZWNmODQyN2VcIixcIm1lcmNoYW50XCI6XCJtb2xvdG92XCJ9In0.jJVB53ZK-gSnfjjM5gyKulgene-N57HX_Q682ChiDoIA8qLW1tuMc1Qp31R1ssT7i6bkkoezC3YBuY_IPkGxXA"
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "REPLAY",
+                    "url": "https://cdn3-vod-mlflux-net.akamaized.net/output/22/b3/dd/015ba252088c7db5b9cf6150a130da93ddddb322/015ba252088c7db5b9cf6150a130da93ddddb322.ism/H263C1895B.mpd",
+                    "browsers": "",
+                    "protData": {
+                        "com.widevine.alpha": {
+                            "drmtoday": true,
+                            "serverURL": "https://lic.drmtoday.com/license-proxy-widevine/cenc/",
+                            "httpRequestHeaders": {
+                                "x-dt-auth-token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE0NTc2OTE5MzcsImp0aSI6IjU2ZTI5ZDIxYzRjODQiLCJjcnQiOiJbe1wiYXNzZXRJZFwiOlwicmVwbGF5X3BhcmFtb3VudGNoYW5uZWxfMTQ1NTAwOTEyM19QUEMwMTAwMDQ1ODA0XCIsXCJzdG9yZUxpY2Vuc2VcIjpmYWxzZSxcInByb2ZpbGVcIjp7XCJyZW50YWxcIjp7XCJhYnNvbHV0ZUV4cGlyYXRpb25cIjpcIjIwMTYtMDMtMTFUMTQ6MjU6MzcrMDA6MDBcIixcInBsYXlEdXJhdGlvblwiOjE0NDAwMDAwfX0sXCJtZXNzYWdlXCI6XCJMaWNlbnNlIGdyYW50ZWRcIixcIm91dHB1dFByb3RlY3Rpb25cIjp7XCJkaWdpdGFsXCI6dHJ1ZSxcImFuYWxvZ3VlXCI6dHJ1ZSxcImVuZm9yY2VcIjpmYWxzZX19XSIsIm9wdERhdGEiOiJ7XCJ1c2VySWRcIjpcIjhmM2FiMDA1YTM3ZjQ3ZTkwM2FhYmZhMWM5YWUxNGU0N2RlNDEzYjdcIixcInNlc3Npb25JZFwiOlwiOGYzYWIwMDVhMzdmNDdlOTAzYWFiZmExYzlhZTE0ZTQ3ZGU0MTNiNy1kNDFkOGNkOThmMDBiMjA0ZTk4MDA5OThlY2Y4NDI3ZVwiLFwibWVyY2hhbnRcIjpcIm1vbG90b3ZcIn0ifQ.t1MYRnFBBS5887Huv1bgTrBxEIWSQD08TKqT-aJvociAkSP6RFxmAIjGysjrkV_fiovNifZGvWbolaCcYmxZtg"
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "CUSTOM REPLAY",
+                    "url": "https://cdn3-vod-mlflux-net.akamaized.net/output/12/ab/c1/fa1351008506d7191900d5b708b1cf0aa0c1ab12/fa1351008506d7191900d5b708b1cf0aa0c1ab12.ism/H263C1895B.mpd?vbegin=350vend=7340",
+                    "browsers": "",
+                    "protData": {
+                        "com.widevine.alpha": {
+                            "drmtoday": true,
+                            "serverURL": "https://lic.drmtoday.com/license-proxy-widevine/cenc/",
+                            "httpRequestHeaders": {
+                                "x-dt-auth-token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE0NTc2OTIwNDQsImp0aSI6IjU2ZTI5ZDhjM2M2ZjEiLCJjcnQiOiJbe1wiYXNzZXRJZFwiOlwic2xpY2VfdGNtXzE0NTUxMDg1ODFfNzU4OVwiLFwic3RvcmVMaWNlbnNlXCI6ZmFsc2UsXCJwcm9maWxlXCI6e1wicmVudGFsXCI6e1wiYWJzb2x1dGVFeHBpcmF0aW9uXCI6XCIyMDE2LTAzLTExVDE0OjI3OjI0KzAwOjAwXCIsXCJwbGF5RHVyYXRpb25cIjoxNDQwMDAwMH19LFwibWVzc2FnZVwiOlwiTGljZW5zZSBncmFudGVkXCIsXCJvdXRwdXRQcm90ZWN0aW9uXCI6e1wiZGlnaXRhbFwiOnRydWUsXCJhbmFsb2d1ZVwiOnRydWUsXCJlbmZvcmNlXCI6ZmFsc2V9fV0iLCJvcHREYXRhIjoie1widXNlcklkXCI6XCI4ZjNhYjAwNWEzN2Y0N2U5MDNhYWJmYTFjOWFlMTRlNDdkZTQxM2I3XCIsXCJzZXNzaW9uSWRcIjpcIjhmM2FiMDA1YTM3ZjQ3ZTkwM2FhYmZhMWM5YWUxNGU0N2RlNDEzYjctZDQxZDhjZDk4ZjAwYjIwNGU5ODAwOTk4ZWNmODQyN2VcIixcIm1lcmNoYW50XCI6XCJtb2xvdG92XCJ9In0.jeUrO8wG4lc_qIU0Mjc9X-qAdI5x9SBNLjVcGDRNsIXtyNGeFp5MnKsmFg4LA71iVDgg7Fz2gQO62Vvep1unWg"
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "HOT REPLAY",
+                    "url": "https://cdn3-live-mlflux-net.akamaized.net/public/france2/france2.isml/france2.mpd?t=2016-03-10T19:51:25.000-2016-03-10T19:54:55.000",
+                    "browsers": "",
+                    "protData": {
+                        "com.widevine.alpha": {
+                            "drmtoday": true,
+                            "serverURL": "https://lic.drmtoday.com/license-proxy-widevine/cenc/",
+                            "httpRequestHeaders": {
+                                "x-dt-auth-token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE0NTc2OTIzNTAsImp0aSI6IjU2ZTI5ZWJlZDM1YjMiLCJjcnQiOiJbe1wiYXNzZXRJZFwiOlwiZnJhbmNlMlwiLFwic3RvcmVMaWNlbnNlXCI6ZmFsc2UsXCJwcm9maWxlXCI6e1wicmVudGFsXCI6e1wiYWJzb2x1dGVFeHBpcmF0aW9uXCI6XCIyMDE2LTAzLTExVDE0OjMyOjMwKzAwOjAwXCIsXCJwbGF5RHVyYXRpb25cIjoxNDQwMDAwMH19LFwibWVzc2FnZVwiOlwiTGljZW5zZSBncmFudGVkXCIsXCJvdXRwdXRQcm90ZWN0aW9uXCI6e1wiZGlnaXRhbFwiOnRydWUsXCJhbmFsb2d1ZVwiOnRydWUsXCJlbmZvcmNlXCI6ZmFsc2V9fV0iLCJvcHREYXRhIjoie1widXNlcklkXCI6XCI4ZjNhYjAwNWEzN2Y0N2U5MDNhYWJmYTFjOWFlMTRlNDdkZTQxM2I3XCIsXCJzZXNzaW9uSWRcIjpcIjhmM2FiMDA1YTM3ZjQ3ZTkwM2FhYmZhMWM5YWUxNGU0N2RlNDEzYjctZDQxZDhjZDk4ZjAwYjIwNGU5ODAwOTk4ZWNmODQyN2VcIixcIm1lcmNoYW50XCI6XCJtb2xvdG92XCJ9In0.kFmITYirS8OUzqVatfMdM2zJ-cZbRhdbPDrj7Bv49Xh35TFvoVIZ-fgW1xdhns92JVtBsFgsIgySzmwyH0a3RA"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
             "name":"VOD",
             "submenu":[
                 {
