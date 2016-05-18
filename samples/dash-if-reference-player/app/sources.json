@@ -1,6 +1,25 @@
 {
     "items":[
         {
+            "name": "MOLOTOV",
+            "submenu": [
+                {
+                    "name":"ARTE",
+                    "url":"http://v.cdn3.live.mlflux.net/public/arte/arte.isml/arte.mpd",
+                    "browsers":"",
+                    "protData": {
+                        "com.widevine.alpha": {
+                            "drmtoday": true,
+                            "serverURL": "https://lic.drmtoday.com/license-proxy-widevine/cenc/",
+                            "httpRequestHeaders": {
+                                "x-dt-auth-token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE0NjMxNDE5ODMsImp0aSI6IjU3MzVjNjVmN2JiNzMiLCJjcnQiOiJbe1wiYXNzZXRJZFwiOlwiYXJ0ZVwiLFwic3RvcmVMaWNlbnNlXCI6ZmFsc2UsXCJwcm9maWxlXCI6e1wicmVudGFsXCI6e1wiYWJzb2x1dGVFeHBpcmF0aW9uXCI6XCIyMDE2LTA1LTEzVDE2OjE5OjQzKzAwOjAwXCIsXCJwbGF5RHVyYXRpb25cIjoxNDQwMDAwMH19LFwibWVzc2FnZVwiOlwiTGljZW5zZSBncmFudGVkXCIsXCJvdXRwdXRQcm90ZWN0aW9uXCI6e1wiZGlnaXRhbFwiOnRydWUsXCJhbmFsb2d1ZVwiOnRydWUsXCJlbmZvcmNlXCI6ZmFsc2V9fV0iLCJvcHREYXRhIjoie1widXNlcklkXCI6XCI4ZjNhYjAwNWEzN2Y0N2U5MDNhYWJmYTFjOWFlMTRlNDdkZTQxM2I3XCIsXCJzZXNzaW9uSWRcIjpcIjhmM2FiMDA1YTM3ZjQ3ZTkwM2FhYmZhMWM5YWUxNGU0N2RlNDEzYjctZDQxZDhjZDk4ZjAwYjIwNGU5ODAwOTk4ZWNmODQyN2VcIixcIm1lcmNoYW50XCI6XCJtb2xvdG92XCJ9In0.UH6C38ywK5UeHmsj-0rywK77NHk5d8TAfnkKlq4bKHx4vhr7gfbc6cCXloxYACdBEmTvKJDl6RyNeFibUCH_lg"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
             "name":"VOD",
             "submenu":[
                 {
