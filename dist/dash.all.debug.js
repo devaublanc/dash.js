@@ -24135,7 +24135,9 @@ function FragmentModel(config) {
         };
 
         var isEqualMedia = function isEqualMedia(req1, req2) {
-            return !isNaN(req1.index) && req1.index === req2.index && req1.startTime === req2.startTime && req1.adaptationIndex === req2.adaptationIndex;
+            // return !isNaN(req1.index) && (req1.index === req2.index) && (req1.startTime === req2.startTime) && (req1.adaptationIndex === req2.adaptationIndex);
+            // FIXME: (MOLOTOV FIX) : https://github.com/Dash-Industry-Forum/dash.js/issues/1514#issuecomment-236054259
+            return !isNaN(req1.index) && req1.startTime === req2.startTime && req1.adaptationIndex === req2.adaptationIndex;
         };
 
         var isEqualInit = function isEqualInit(req1, req2) {
